@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$bdd = new PDO('mysql:host=localhost;dbname=espace_membres;charset=utf8;', 'root', 'root');
+$bdd = new PDO('mysql:host=mdtbcswmdtbcso.mysql.db;dbname=mdtbcswmdtbcso;charset=utf8;');
 if(isset($_POST['envoi'])){
     if(!empty($_POST['pseudo']) AND !empty($_POST['mdp'])){
         $pseudo = htmlspecialchars($_POST['pseudo']);
