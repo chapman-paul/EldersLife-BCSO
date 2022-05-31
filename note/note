@@ -1,0 +1,21 @@
+<!-- liste deroulante grades
+    
+    <td>
+    <select name="Grades" id="Grades">
+        <option value="Sheriff">Sheriff</option>
+        <option value="UnderSheriff">UnderSheriff</option>
+        <option value="Assistant Sheriff">Assistant Sheriff</option>
+        <option value="Capitaine">Capitaine</option>
+        <option value="Lieutenant">Lieutenant</option>
+        <option value="Master Sergent">Master Sergent</option>
+        <option value="Sergent">Sergent</option>
+        <option value="Corporal">Corporal</option>
+        <option value="Master Députy">Master Députy</option>
+        <option value="Senior Députy">Senior Députy</option>
+        <option value="Députy First Class">Députy First Class</option>
+        <option value="Députy Second Class">Députy Second Class</option>
+        <option value="Probatory Députy">Probatory Députy</option>
+    </select>
+</td> 
+
+-->

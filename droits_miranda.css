@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(base_de_données/head.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: 'Arapey', serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 70px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.menu-bar
+{
+    background: white;
+    text-align: center;
+}
+
+.menu-bar ul 
+{
+    display: inline-flex;
+    list-style: none;
+    color: #022E15;
+    z-index: 10;
+}
+
+.menu-bar ul li
+{
+    width: 200px;
+    margin: 1px;
+    padding: 0.5px;
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #022E15;
+    letter-spacing: 1px;
+}
+
+.active, .menu-bar ul li:hover
+{
+    background: #f8b100;
+    color: #022E15;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn-area .fa-solid
+{
+    margin-left: 8px;
+}
+
+.btn-area {
+    cursor: pointer;
+    color: #022E15;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #f8b100;
+    margin-bottom: 8px;
+}
+/* premier menu deroulant */
+.sub-menu-1
+{
+    display: none;
+    z-index: 10;
+}
+
+.sub-menu-1 .fa-solid
+{
+    margin-right: 8px;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: #f8b100;
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 20px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding:10px;
+    border-bottom: 2px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: white;
+}
+
+.fa-ellipsis-vertical
+{
+    float: right;
+}
+
+/* deuxieme menu deroulant */
+.sub-menu-2
+{
+    display: none;
+    z-index: 10;
+}
+
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: #f8b100;
+}
+
+.fa-solid
+{
+    margin-left: 0px;
+}
+
+td, th
+{
+    border: 1px solid rgb(160, 160, 160);
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    color: white;
+    top: 900px;
+    left: 800px;
+    position: absolute;
+    font-weight: normal;
+}
+
+section img
+{
+    display: block;
+    align-items: center;
+    margin-left: 820px;
+    margin-top: 50px;
+    width: 15%;
+}
+
+section h1
+{
+    color: white;
+    text-align: center;
+    font-size:50px;
+    text-decoration: underline;
+}

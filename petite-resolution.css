@@ -1,0 +1,39 @@
+@media screen and (max-width: 1280px)
+{
+    p
+    {
+        position: fixed;
+    }
+
+    li
+    {
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    p
+    {
+        position: fixed;
+    }
+
+    ul
+    {
+        position: fixed;
+    }
+}
+
+
+@media all and (max-device-width: 480px)
+{
+    p
+    {
+        position: fixed;
+    }
+
+    li
+    {
+        position: fixed;
+    }
+}

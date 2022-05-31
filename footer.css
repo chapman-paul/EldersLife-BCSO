@@ -1,0 +1,14 @@
+body{
+    background-color: #045024;
+}
+p{
+    color: white;    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 15px;
+}
